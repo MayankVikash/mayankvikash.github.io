@@ -1,4 +1,45 @@
 ---
 label: Posts
 hide_body: false
-fields: []
+fields:
+- name: text
+  type: text
+  config:
+    required: false
+  label: Text
+- name: textfeild
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Textfeild
+- name: image_upload
+  type: image_gallery
+  config: {}
+  label: Image upload
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: tag
+  type: tag_list
+  default: []
+  label: Tag
+- name: num
+  type: number
+  label: Num
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
