@@ -1,0 +1,10 @@
+---
+tag: []
+num: 0
+text: This is a test
+textfeild: This is text
+image_upload:
+- "/uploads/img-20220619-wa0000.jpg"
+date: 2022-06-16 18:30:00 +0000
+
+---

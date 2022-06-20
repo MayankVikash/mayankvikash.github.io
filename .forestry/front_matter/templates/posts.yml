@@ -43,3 +43,5 @@ fields:
     min: 
     max: 
     step: 
+pages:
+- _posts/test.md
