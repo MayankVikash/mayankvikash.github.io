@@ -1,1 +1,222 @@
-IyMgVG9wIDUwIElUIGFuZCBDb21wdXRlciBxdWVzdGlvbnMuCgpBcmUgeW91IHByZXBhcmluZyBmb3IgQ29tcHV0ZXIvSVQgcXVpej8gCklmIHllcywgdGhlbiB5b3UgcHJvYmFibHkgYmUgc2VhcmNoaW5nIG9uIEdvb2dsZSB0aGUgd2hvbGUgZGF5IGFuZCB2aXNpdGluZyAxMDBzIG9mIHdlYnNpdGVzLiAKCk5vdyB0aGF0IHlvdSBhcmUgaGVyZSwgeW91IGRvIG5vdCBuZWVkIHRvIHNlYXJjaCBmb3IgYW5vdGhlciBJVC9Db21wdXRlciBxdWVzdGlvbi4KIApJbiB0aGlzIGFydGljbGUsIEkgd2lsbCBiZSBwcm92aWRpbmcgeW91IHdpdGggYSBsaXN0IG9mIDUwIHF1ZXN0aW9ucy4KCgoxLiBXaG8gaXMga25vd24gYXMgdGhlIGZhdGhlciBvZiB0aGUgSW50ZXJuZXQ/CgoKMi4gV2hhdCBpcyB0aGUgZnVsbCBmb3JtIG9mIEhETUk/CgoKMy4gV2hpY2ggY29tcGFueSBkZXZlbG9wZWQgV29yZCwgUG93ZXJQb2ludCwgYW5kIEV4Y2VsIGNvbGxlY3RpdmVseSBrbm93biBhcyBNUyBPZmZpY2U/Cgo0LiBXaGF0IGlzIGtub3duIGFzIHRoZSBTaWxpY29uIFZhbGxleSBvZiBJbmRpYT8KCjUuIFdoYXQgaXMgdGhlIGZ1bGwgZm9ybSBvZiBVUEk/Cgo2LiBXaGVuIENvbXB1dGVyIGxpdGVyYWN5IGRheSBpcyBvYnNlcnZlZD8KCjcuIFdoYXQgaXMgdGhlIG5hbWUgb2YgdGhlIGZpcnN0IHNlYXJjaCBlbmdpbmU/Cgo4LiBJbiB3aGljaCBvcGVyYXRpbmcgc3lzdGVtIGFuZCBpbiB3aGljaCB2ZXJzaW9uIHRoZSBzdGFydCBidXR0b24gd2FzIGludHJvZHVjZWQ/Cgo5LiBKYXdlZCBLYXJpbSBpcyB0aGUgZm91bmRlciBhbmQgY3JlYXRvciBvZiB3aGljaCBwb3B1bGFyIHdlYnNpdGU/CgoxMC4gV2hlbiBIVE1MNSB3YXMgcmVsZWFzZWQ/CgoxMS4gV2hhdCBpcyB0aGUgbmFtZSBvZiB0aGUgZmlyc3QgbWljcm9jb21wdXRlcj8KCjEyLiBXaGF0IGlzIHRoZSBjaGFyYWN0ZXIgbGltaXQgaW4gdGhlIFR3aXR0ZXIgcG9zdD8KCjEzLiBBY2NvcmRpbmcgdG8gdGhlIFN0YWNrIE92ZXJmbG93IHN1cnZleSwgd2hpY2ggaXMgdGhlIG1vc3QgcG9wdWxhciBwcm9ncmFtbWluZyBsYW5ndWFnZT8KCjE0LiBXaGVuIHdhcyBKYXZhc2NyaXB0IHJlbGVhc2VkPwoKMTUuIFdoYXQgZG9lcyB0aGUgdGVybSBkZWJ1Z2dpbmcgbWVhbiBpbiBwcm9ncmFtbWluZz8KCjE2LiBXaGF0IGRvIGkzLCBpNSwgYW5kIGk3IG1lYW5zIGluIHRlcm1zIG9mIHRoZSBjb21wdXRlcj8KCjE3LiBXaGF0IGlzIHRoZSBmdWxsIGZvcm0gb2YgQVBJPwoKMTguIFdoYXQgaXMgdGhlIG5hbWUgb2YgdGhlIGZpcnN0IHN1cGVyY29tcHV0ZXIgaW4gSW5kaWE/CgoxOS4gSW4gd2hpY2ggeWVhciwgdGhlIHBvcHVsYXIgd2Vic2l0ZSBmb3Igc2hvd2Nhc2luZyB1c2VyLWNyZWF0ZWQgSFRNTCwgQ1NTLCBhbmQgSmF2YXNjcmlwdCBzbmlwcGV0cywgQ29kZVBlbiB3YXMgbGF1bmNoZWQ/CgoyMC4gV2hpY2ggZ2FtZSBzdHVkaW8gaXMgdGhlIGRldmVsb3BlciBvZiB0aGUgcG9wdWxhciBnYW1lIE1pbmVjcmFmdD8KCjIxLiBXaGljaCBjb21wdXRlciBoYXMgYmVlbiBkZXNpZ25lZCB0byBiZSBhcyBjb21wYWN0IGFzIHBvc3NpYmxlPwoKMjIuIFdoYXQgaXMgdGhlIGZ1bGwgZm9ybSBvZiBBU0NJST8KCjIzLiBJbiB3aGljaCB5ZWFyIExpbmtlZEluIHdhcyBsYXVuY2hlZD8KCjI0LiBXaGljaCBkYXRhdHlwZSBpbiBqYXZhIGRlYWxzIHdpdGggdHJ1ZSBhbmQgZmFsc2U/CgoyNS4gV2hvIGlzIHRoZSBjcmVhdG9yIG9mIEhUTUw/CgoyNi4gV2hhdCBpcyB0aGUgZnVsbCBmb3JtIG9mIE5QQ0k/CgoyNy4gV2hpY2ggaXMgdGhlIG1vc3QgcG9wdWxhciBwcm9ncmFtbWluZyBsYW5ndWFnZSB3aGVuIGl0IGNvbWVzIHRvIEFJIGFuZCBtYWNoaW5lIGxlYXJuaW5nPwoKMjguIFdoYXQgaXMgdGhlIGZ1bGwgZm9ybSBvZiBVUEk/CgoyOS4gSW5kaWFuIGVkLXRlY2ggY29tcGFueSwgQnVqdSdzIHdhcyBsYXVuY2hlZCBpbiB3aGljaCB5ZWFyPwoKMzAuIFdoaWNoIGlzIHRoZSBtb3N0IHBvcHVsYXIgc29mdHdhcmUgZm9yIHBob3RvIGVkaXRpbmc/CgozMS4gV2hlbiBOZXRmbGl4IHdhcyBmaXJzdCByZWxlYXNlZD8KCjMyLiBXaG8gaXMgdGhlIGZvdW5kZXIgb2YgRnJlZUNvZGVDYW1wPwoKMzMuIFdoZW4gNUcgd2FzIGxhdW5jaGVkIGluIEluZGlhPwoKMzQuIFdoaWNoIHNvZnR3YXJlIGlzIHVzZWQgdG8gY3JlYXRlIHNsaWRlcyBhbmQgcHJlc2VudGF0aW9ucz8KCjM1LiBXaG8gb3ducyBHaXRodWI/CgozNi4gV2hhdCBpcyB0aGUgZnVsbCBmb3JtIG9mIENNUz8KCjM3LiBXaGVuIHdhcyBXb3JkUHJlc3MgbGF1bmNoZWQ/CgozOC4gV2hvIGlzIHRoZSBDRU8gb2YgQWxwaGFiZXQgSW5jLgoKMzkuIFdoZW4gd2FzIEFscGhhYmV0IEluYy4gY3JlYXRlZD8KCjQwLiBXaGF0IGlzIHRoZSBmdWxsIGZvcm0gb2YgY2NUTEQ/Cgo0MS4gV2hlbiB3YXMgR29EYWRkeSwgYSBwb3B1bGFyIGRvbWFpbiByZWdpc3RyYXIgbGF1bmNoZWQ/Cgo0Mi4gV2hvIG93bnMgQ2xvdWQgQ29udmVydGVyPwoKNDMuIFBlZ2FzdXMgd2FzIG1hZGUgaW4gd2hpY2ggY291bnRyeT8KCjQ0LiBGcm9tIHdoaWNoIGNvdW50cnkgbW9zdCB0ZWNoIGdpYW50IENFT3MgYXJlIGZyb20/Cgo0NS4gV2hpY2ggY291bnRyeSB3YXMgdGhlIGZpcnN0IHRvIGxhdW5jaCA1RyB0ZWNobm9sb2d5PwoKNDYuIFdoYXQgaXMgdGhlIGZ1bGwgZm9ybSBvZiBKRUU/Cgo0Ny4gQml0bHkgVVJMIHNob3J0ZW5lciBpcyBvd25lZCBieSB3aGljaCBjb21wYW55PwoKNDguIFdoYXQgaXMgdGhlIGZ1bGwgZm9ybSBvZiBJVD8KCjQ5LiBXaGF0IGlzIHRoZSBmdWxsIGZvcm0gb2YgTkVFVD8KCjUwLiBXaG8gaXMga25vd24gYXMgdGhlIGZhdGhlciBvZiBDb21wdXRlcnM/CgojIyBBbnN3ZXJzCgoxLiBUaW0gQmVybmVycy1MZWUKCjIuIEhpZ2ggRGVmaW5pdGlvbiBNdWx0aW1lZGlhIEludGVyZmFjZQoKMy4gTWljcm9zb2Z0IENvcnAuIAoKNC4gQmVuZ2FsdXJ1Cgo1LiBVbmlmaWVkIFBheW1lbnQgSW50ZXJmYWNlCgo2LiAybmQgRGVjZW1iZXIgMjAyMgoKNy4gQXJjaGllCgo4LiBXaW5kb3dzIDk1Cgo5LiBZb3V0dWJlLmNvbQoKMTAuIDIwMTQKCjExLiBNaWNyYWwKCjEyLiAyODAKCjEzLiBKYXZhc2NyaXB0CgoxNC4gMTk5NQoKMTUuIEZpeGluZyBwcm9ibGVtcyBpbiBjb2RlcwoKMTYuIEludGVsIFByb2Nlc3NvcnMgdmVyc2lvbgoKMTcuIEFwcGxpY2F0aW9uIFByb2dyYW1taW5nIEludGVyZmFjZQoKMTguIFBhcmFtIDgwMDAKCjE5LiAyMDEyCgoyMC4gTW9qYW5nIFN0dWRpb3MKCjIxLiBNaWNybyBDb21wdXRlcgoKMjIuIEFtZXJpY2FuIFN0YW5kYXJkIENvZGUgZm9yIEluZm9ybWF0aW9uIEV4Y2hhbmdlCgoyMy4gMjAwMgoKMjQuIEJvb2xlYW4KCjI1LiBUaW0gQmVybmVycy1MZWUKCjI2LiBOYXRpb25hbCBQYXltZW50IENvcnBvcmF0aW9uIG9mIEluZGlhCgoyNy4gUHl0aG9uCgoyOC4gUmFuZG9tIEFjY2VzcyBNZW1vcnkKCjI5LiAyMDExCgozMC4gQWRvYmUgUGhvdG9zaG9wCgozMS4gMTk5NwoKMzIuIFF1aW5jeSBMYXJzb24KCjMzLiAxc3QgT2N0b2JlciAyMDIyCgozNC4gUG93ZXJwb2ludAoKMzUuIE1pY3Jvc29mdAoKMzYuIENvbnRlbnQgTWFuYWdlbWVudCBTeXN0ZW0KCjM3LiAyMDAzCgozOC4gU3VuZGFyIFBpY2hhaQoKMzkuIDIwMTUKCjQwLiBDb3VudHJ5IENvZGUgVG9wIExldmVsIERvbWFpbgoKNDEuIDE5OTcKCjQyLiBMdW5hd2ViIEdtYkgKCjQzLiBJc3JhZWwKCjQ0LiBJbmRpYQoKNDUuIFNvdXRoIEtvcmVhCgo0Ni4gSm9pbnQgRW50cmFuY2UgRXhhbQoKNDcuIFNwZWN0cnVtIEVxdWl0eQoKNDguIEluZm9ybWF0aW9uIFRlY2hub2xvZ3kKCjQ5LiBOYXRpb25hbCBFbGlnaWJpbGl0eSBFbnRyYW5jZSBUZXN0Cgo1MC4gQ2hhcmxlcyBCYWJiYWdlCgpUaGFua3MgZm9yIHJlYWRpbmcuIElmIHlvdSBnZXQgdGltZSwgcGxlYXNlIHZpc2l0IG15IHdlYnNpdGU6IFttYXlhbmt2aWthc2guaW5dKGh0dHBzOi8vbWF5YW5rdmlrYXNoLmluLykKCltodHRwczovL21heWFua3Zpa2FzaC5pbi9wb3N0cy90b3AtNTAtaXQtYW5kLWNvbXB1dGVyLXF1ZXN0aW9ucy9dKGh0dHBzOi8vbWF5YW5rdmlrYXNoLmluL3Bvc3RzL3RvcC01MC1pdC1hbmQtY29tcHV0ZXItcXVlc3Rpb25zLykKCgoKCgo=
+# Top 50 IT and Computer questions.
+
+Are you preparing for Computer/IT quiz? 
+If yes, then you probably be searching on Google the whole day and visiting 100s of websites. 
+
+Now that you are here, you do not need to search for another IT/Computer question.
+ 
+In this article, I will be providing you with a list of 50 questions.
+
+
+1. Who is known as the father of the Internet?
+
+
+2. What is the full form of HDMI?
+
+
+3. Which company developed Word, PowerPoint, and Excel collectively known as MS Office?
+
+4. What is known as the Silicon Valley of India?
+
+5. What is the full form of UPI?
+
+6. When Computer literacy day is observed?
+
+7. What is the name of the first search engine?
+
+8. In which operating system and in which version the start button was introduced?
+
+9. Jawed Karim is the founder and creator of which popular website?
+
+10. When HTML5 was released?
+
+11. What is the name of the first microcomputer?
+
+12. What is the character limit in the Twitter post?
+
+13. According to the Stack Overflow survey, which is the most popular programming language?
+
+14. When was Javascript released?
+
+15. What does the term debugging mean in programming?
+
+16. What do i3, i5, and i7 means in terms of the computer?
+
+17. What is the full form of API?
+
+18. What is the name of the first supercomputer in India?
+
+19. In which year, the popular website for showcasing user-created HTML, CSS, and Javascript snippets, CodePen was launched?
+
+20. Which game studio is the developer of the popular game Minecraft?
+
+21. Which computer has been designed to be as compact as possible?
+
+22. What is the full form of ASCII?
+
+23. In which year LinkedIn was launched?
+
+24. Which datatype in java deals with true and false?
+
+25. Who is the creator of HTML?
+
+26. What is the full form of NPCI?
+
+27. Which is the most popular programming language when it comes to AI and machine learning?
+
+28. What is the full form of UPI?
+
+29. Indian ed-tech company, Buju's was launched in which year?
+
+30. Which is the most popular software for photo editing?
+
+31. When Netflix was first released?
+
+32. Who is the founder of FreeCodeCamp?
+
+33. When 5G was launched in India?
+
+34. Which software is used to create slides and presentations?
+
+35. Who owns Github?
+
+36. What is the full form of CMS?
+
+37. When was WordPress launched?
+
+38. Who is the CEO of Alphabet Inc.
+
+39. When was Alphabet Inc. created?
+
+40. What is the full form of ccTLD?
+
+41. When was GoDaddy, a popular domain registrar launched?
+
+42. Who owns Cloud Converter?
+
+43. Pegasus was made in which country?
+
+44. From which country most tech giant CEOs are from?
+
+45. Which country was the first to launch 5G technology?
+
+46. What is the full form of JEE?
+
+47. Bitly URL shortener is owned by which company?
+
+48. What is the full form of IT?
+
+49. What is the full form of NEET?
+
+50. Who is known as the father of Computers?
+
+## Answers
+
+1. Tim Berners-Lee
+
+2. High Definition Multimedia Interface
+
+3. Microsoft Corp. 
+
+4. Bengaluru
+
+5. Unified Payment Interface
+
+6. 2nd December 2022
+
+7. Archie
+
+8. Windows 95
+
+9. Youtube.com
+
+10. 2014
+
+11. Micral
+
+12. 280
+
+13. Javascript
+
+14. 1995
+
+15. Fixing problems in codes
+
+16. Intel Processors version
+
+17. Application Programming Interface
+
+18. Param 8000
+
+19. 2012
+
+20. Mojang Studios
+
+21. Micro Computer
+
+22. American Standard Code for Information Exchange
+
+23. 2002
+
+24. Boolean
+
+25. Tim Berners-Lee
+
+26. National Payment Corporation of India
+
+27. Python
+
+28. Random Access Memory
+
+29. 2011
+
+30. Adobe Photoshop
+
+31. 1997
+
+32. Quincy Larson
+
+33. 1st October 2022
+
+34. Powerpoint
+
+35. Microsoft
+
+36. Content Management System
+
+37. 2003
+
+38. Sundar Pichai
+
+39. 2015
+
+40. Country Code Top Level Domain
+
+41. 1997
+
+42. Lunaweb GmbH
+
+43. Israel
+
+44. India
+
+45. South Korea
+
+46. Joint Entrance Exam
+
+47. Spectrum Equity
+
+48. Information Technology
+
+49. National Eligibility Entrance Test
+
+50. Charles Babbage
+
+Thanks for reading. If you get time, please visit my website: [mayankvikash.in](https://mayankvikash.in/)
+
+[https://mayankvikash.in/posts/top-50-it-and-computer-questions/](https://mayankvikash.in/posts/top-50-it-and-computer-questions/)
+
+
+
+
+
