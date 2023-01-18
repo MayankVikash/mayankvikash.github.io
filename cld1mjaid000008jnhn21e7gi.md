@@ -29,3 +29,5 @@ I guess the decision of shutting down Twitter's newsletter tool is quite early a
 Revue has shut down new user registrations and the user's data is available for download. The homepage of Revue redirects to the article on their help section where they state that they "have made the difficult decision to shut down Revue."
 
 The article does not include the reason for shutting down the newsletter tool.
+
+Also Published [here](https://mayankvikash.in/posts/Twitter-is-shutting-down-revue/).
