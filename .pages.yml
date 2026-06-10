@@ -1,12 +1,22 @@
 media:
   input: assets/img
 
+settings:
+  # This tells Pages CMS what your base website URL is
+  url: https://mayankvikash.github.io 
+
 content:
   - name: posts
     label: Blog Posts
     type: collection
     path: _posts
     format: yaml-frontmatter
+    # This magically builds the custom Chirpy preview link for every individual post
+    links:
+      - label: View Post
+        url: /posts/{slug}/
+    default:
+      layout: post 
     fields:
       - name: title
         type: string
