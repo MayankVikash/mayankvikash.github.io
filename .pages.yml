@@ -1,0 +1,28 @@
+media:
+  input: assets/img # Chirpy saves images here
+
+collections:
+  - name: posts
+    label: Blog Posts
+    path: _posts
+    type: folder
+    layout: post
+    fields:
+      - name: title
+        type: string
+        label: Post Title
+      - name: date
+        type: date
+        label: Publish Date
+      - name: categories
+        type: array
+        label: Categories (e.g., Blogging, Tutorial)
+      - name: tags
+        type: array
+        label: Tags
+      - name: description
+        type: string
+        label: Short Description (for preview)
+      - name: body
+        type: rich-text
+        label: Write your content here
