@@ -1,12 +1,12 @@
 media:
-  input: assets/img # Chirpy saves images here
+  input: assets/img
 
-collections:
+content:
   - name: posts
     label: Blog Posts
+    type: collection
     path: _posts
-    type: folder
-    layout: post
+    format: yaml-frontmatter
     fields:
       - name: title
         type: string
@@ -15,14 +15,14 @@ collections:
         type: date
         label: Publish Date
       - name: categories
-        type: array
-        label: Categories (e.g., Blogging, Tutorial)
+        type: string
+        label: Categories
       - name: tags
-        type: array
+        type: string
         label: Tags
       - name: description
         type: string
-        label: Short Description (for preview)
+        label: Short Description
       - name: body
         type: rich-text
         label: Write your content here
