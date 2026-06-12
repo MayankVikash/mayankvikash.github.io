@@ -32,8 +32,8 @@ Starting **June 20, 2026**, I am committing to the **#100DaysOfCode** challenge 
 
 I like sharing stuff here:
 
-*  [LinkedIn](YOUR_LINKEDIN_URL_HERE)
-*  [X / Twitter](YOUR_X_TWITTER_URL_HERE)
-*  [GitHub](https://github.com/YOUR_GITHUB_USERNAME)
+*  [LinkedIn](https://in.linkedin.com/)
+*  [X / Twitter](https://x.com/)
+*  [GitHub](https://github.com/mayankvikash)
 
 ---
