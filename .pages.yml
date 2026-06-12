@@ -2,7 +2,6 @@ media:
   input: assets/img
 
 settings:
-  # This tells Pages CMS what your base website URL is
   url: https://mayankvikash.github.io 
 
 content:
@@ -11,7 +10,8 @@ content:
     type: collection
     path: _posts
     format: yaml-frontmatter
-    # This magically builds the custom Chirpy preview link for every individual post
+    # Chirpy files MUST follow the naming convention: YYYY-MM-DD-title.md
+    filename: "{year}-{month}-{day}-{slug}.md"
     links:
       - label: View Post
         url: /posts/{slug}/
@@ -21,18 +21,23 @@ content:
       - name: title
         type: string
         label: Post Title
+        required: true
       - name: date
-        type: date
+        type: datetime
         label: Publish Date
-      - name: categories
-        type: string
-        label: Categories
-      - name: tags
-        type: string
-        label: Tags
+        # Automatically fills the current date/time zone for Chirpy's scheduler
+        default: now
       - name: description
         type: string
-        label: Short Description
+        label: Short Description (SEO)
+      - name: categories
+        type: list
+        label: Categories
+        description: "Max 2. Example: [Python, 100DaysOfCode]"
+      - name: tags
+        type: list
+        label: Tags
+        description: "Comma-separated words. Example: [basics, loops]"
       - name: body
         type: rich-text
         label: Write your content here
