@@ -22,7 +22,7 @@ This website is for documenting my current coding challenges, track my projects,
 ### Current Focus & Roadmaps
 
 #### The 100 Days of Python Challenge
-Starting **June 20, 2026**, I am committing to the **#100DaysOfCode** challenge focused11 on mastering Python, data structures, and algorithms. 
+Starting **June 20, 2026**, I am committing to the **#100DaysOfCode** challenge focused on mastering Python, data structures, and algorithms. 
 * Every single day, I will be posting all the programming questions I solved along with occasional updates to projects I am working on.
 * **Goal:** Switch from Java and be able to write Python syntax easily.
 
