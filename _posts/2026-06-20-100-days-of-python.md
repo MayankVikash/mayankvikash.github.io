@@ -1,6 +1,6 @@
 ---
 title: 100 Days of Python
-date: now
+date: 2026-06-20 09:43:00 +00:00
 description: 100 Days of Python
 categories: Python
 tags: Posts
@@ -17,10 +17,9 @@ I was supposed to post this, actually, yesterday, on 19th June, which I decided 
 
 ![SC1](https://blogger.googleusercontent.com/img/a/AVvXsEjPL42575QjCXVki2iz1yuOJXdbQrDQO-D-YUFTAk6uoFWpZ7zSLJg5U-pHEMkP3P_VnyATIobMjeBdHILzB1JRJLfXm9A8Uom4zkHWPnlevHxR14dcPve2EaOpDL2GYVwQpuUVtMer2GBnHHiarHXLoNn_Cqt1MNPwvYY8FEVnzS7iL7p-pFy5l-Omt6k=w320-h180)
 
-  
 
 
-
+&nbsp;
 
 In the above screenshot, it can be seen that I was playing around with basic Python syntax and was able to get the hang of it. Now, instead of 'System.out.println', the simple 'print' seems more natural to me.
 
@@ -44,7 +43,6 @@ So basically, unlike Java, I cannot put both a String and an Integer variable in
 
 ![SC3](https://blogger.googleusercontent.com/img/a/AVvXsEh3qbJrIEj_Loe4A6t9N9vVybjUjcXVJe73YP3phEoh2uhOgSC1pdWZtEqi9vxUQ23S8meugfS6IflS0JGa9bSrUmGwX5iF8x5NMA8uzbnj100QbL5dMgiO4vbZfxQPN_ZusfA2P5rTgiRnafzgYmMi1PjMioa9Ro48Y5CfciLlB1H9hz3IcAg8Rl2s7Hs=w320-h180)
 
-  
 Here is everything I wrote on Day 0 of 100 Days of Python:
 
 
@@ -131,3 +129,4 @@ print(f"The value of a is now original {a} and b is original {b} ")
 
 
 Today is 20th June, 2026. Starting Today, I will practise Python for the next 100 Days with my full effort!
+
