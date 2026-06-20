@@ -231,6 +231,12 @@ jekyll-archives:
 
 
 
+
+future: true
+
+
+
+
 copyright:
   brief: "© 2026 Mayank Vikash."
   verbose: "© 2026 Mayank Vikash."
