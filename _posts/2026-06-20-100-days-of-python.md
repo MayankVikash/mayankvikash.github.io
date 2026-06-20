@@ -1,6 +1,7 @@
 ---
+layout: post
 title: 100 Days of Python
-date: 2026-06-20 09:43:00
+date: 2026-06-20 10:44:00 +00:00
 description: 100 Days of Python
 categories: Python
 tags: Posts
@@ -130,3 +131,6 @@ print(f"The value of a is now original {a} and b is original {b} ")
 
 Today is 20th June, 2026. Starting Today, I will practise Python for the next 100 Days with my full effort!
 
+
+
+&nbsp;
