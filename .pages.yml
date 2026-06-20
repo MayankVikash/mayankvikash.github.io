@@ -38,3 +38,4 @@ content:
       - name: body
         type: rich-text
         label: Write your content here
+        
