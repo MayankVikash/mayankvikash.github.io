@@ -1,6 +1,6 @@
 ---
 title: 100 Days of Python
-date: 2026-06-20 09:43:00 +00:00
+date: 2026-06-20 09:43:00
 description: 100 Days of Python
 categories: Python
 tags: Posts
