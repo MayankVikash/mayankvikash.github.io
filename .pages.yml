@@ -15,6 +15,9 @@ content:
       - label: View Post
         url: /posts/{slug}/
     fields:
+      - name: layout
+        type: hidden
+        default: post
       - name: title
         type: string
         label: Post Title
@@ -38,4 +41,3 @@ content:
       - name: body
         type: rich-text
         label: Write your content here
-        
