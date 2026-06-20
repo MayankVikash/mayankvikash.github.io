@@ -14,8 +14,6 @@ content:
     links:
       - label: View Post
         url: /posts/{slug}/
-    default:
-      layout: post 
     fields:
       - name: title
         type: string
@@ -34,11 +32,9 @@ content:
       - name: categories
         type: list
         label: Categories
-        description: "Max 2. Example: Python"
       - name: tags
         type: list
         label: Tags
-        description: "Add tags individually."
       - name: body
         type: rich-text
         label: Write your content here
