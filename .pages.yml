@@ -10,7 +10,6 @@ content:
     type: collection
     path: _posts
     format: yaml-frontmatter
-    # Chirpy files MUST follow the naming convention: YYYY-MM-DD-title.md
     filename: "{year}-{month}-{day}-{slug}.md"
     links:
       - label: View Post
@@ -35,11 +34,11 @@ content:
       - name: categories
         type: list
         label: Categories
-        description: "Max 2. Example: [Python, 100DaysOfCode]"
+        description: "Max 2. Example: Python"
       - name: tags
         type: list
         label: Tags
-        description: "Comma-separated words. Example: [basics, loops]"
+        description: "Add tags individually."
       - name: body
         type: rich-text
         label: Write your content here
