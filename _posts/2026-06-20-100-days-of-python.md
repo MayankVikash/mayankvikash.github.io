@@ -1,10 +1,10 @@
 ---
 layout: post
 title: 100 Days of Python
-date: 2026-06-19 10:44:00 +00:00
+date: 2026-06-20 10:44:00 +00:00
 description: 100 Days of Python
-categories: Python
-tags: Posts
+categories: Coding
+tags: Python
 ---
 Python is one of the most popular programming languages. It is simple to understand and easy to learn for beginners. Although I am not exactly a beginner. I did spend 4 years in school (from grade 9 to 12) in school learning Java and practising problems like String Manipulation, Array Operations and recently Stacks and Queues.
 
