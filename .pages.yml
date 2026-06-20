@@ -20,12 +20,10 @@ content:
         label: Post Title
         required: true
       - name: date
-        type: date
+        type: string
         label: Publish Date
         required: true
-        options:
-          time: true
-          format: "yyyy-MM-dd HH:mm:ss xxxxx"
+        default: "{{now}}"
       - name: description
         type: string
         label: Short Description (SEO)
