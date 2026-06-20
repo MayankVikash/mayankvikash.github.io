@@ -23,10 +23,12 @@ content:
         label: Post Title
         required: true
       - name: date
-        type: datetime
+        type: date
         label: Publish Date
-        # Automatically fills the current date/time zone for Chirpy's scheduler
-        default: now
+        required: true
+        options:
+          time: true
+          format: "yyyy-MM-dd HH:mm:ss xxxxx"
       - name: description
         type: string
         label: Short Description (SEO)
