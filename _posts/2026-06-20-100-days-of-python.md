@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 100 Days of Python
-date: 2026-06-20 10:44:00 +00:00
+date: 2026-06-19 10:44:00 +00:00
 description: 100 Days of Python
 categories: Python
 tags: Posts
