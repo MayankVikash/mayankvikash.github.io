@@ -13,19 +13,13 @@ Yesterday, I played around with basic Python syntax, such as print, which lets u
 
 This was one problem that I solved yesterday. These kinds of questions are asked repeatedly in board exams, and I am very familiar with them. I will do more of these kinds of questions tomorrow.
 
-```
+```python
 #Electricity Bill question in Python
-
 # An electricity board charges for electricity delivered to domestic consumers based on the number of units consumed.
-
 # For the first 100 units: ₹4.00 per unit
-
 # For the next 200 units: ₹6.00 per unit
-
 # Beyond 300 units: ₹8.00 per unit
-
 # A fixed meter charge of ₹200 is added to every bill.
-
 # Given the units consumed, calculate the total bill.
 
 units = int(input("Enter units consumed"))
@@ -52,6 +46,14 @@ It is also one of the most asked types of questions in the board exam.
 Here is the code
 
 ```python
+# Input the basic salary of an employee. Compute the Gross Salary and Net Salary based on the following:
+# HRA (House Rent Allowance) = 20% of Basic
+# DA (Dearness Allowance) = 50% of Basic
+# Gross Salary = Basic + HRA + DA
+# Tax Deduction: If Gross Salary is over ₹1,00,000, deduct 10% of Gross as tax; otherwise, tax is 0.
+# Net Salary = Gross Salary - Tax Deduction
+
+
 bs = int(input("Enter basic salary"))
 hra = 0.2 * bs
 da = 0.5*bs
