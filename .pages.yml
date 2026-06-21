@@ -14,10 +14,10 @@ content:
     links:
       - label: View Post
         url: /posts/{slug}/
+    # This applies layout: post automatically to the front matter without showing an editor box
+    default:
+      layout: post
     fields:
-      - name: layout
-        type: hidden
-        default: post
       - name: title
         type: string
         label: Post Title
