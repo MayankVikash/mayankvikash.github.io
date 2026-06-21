@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Day 1 of 100 Days of Python
 date: 2026-06-21 00:31:00 +00:00
 description: Practising simple Python programs on first day of challenge
@@ -8,7 +7,7 @@ tags: Python
 ---
 Today is the first day of the coding challenge I took (although by the time I finish writing this post, it will be past 12 in the morning).
 
-Yesterday, I played around with the basic Python syntax, like print, which allows us to display text in the console. Today, my goal is to learn more about basic Python syntax and practice a few questions. 
+Yesterday, I played around with basic Python syntax, such as print, which lets us display text in the console. Today, my goal is to learn more about basic Python syntax and work through a few practice questions. 
 
 ![SC1](assets/img/image-3.png)
 
@@ -42,3 +41,34 @@ tbill = amt + fixc
 print(f"Total amount to be paid: {tbill}")
 ```
 
+
+
+This is the second program:
+
+![image.png](assets/img/image-4.png)
+
+It is also one of the most asked types of questions in the board exam.
+
+Here is the code
+
+```python
+bs = int(input("Enter basic salary"))
+hra = 0.2 * bs
+da = 0.5*bs
+gross = bs + hra + da
+tax = 0.0
+
+if gross>100000:
+    tax = 0.1*gross
+else:
+    tax = 0.0
+net = gross - tax
+
+print(f"Basic Salary: {bs}")
+print(f"hra: {hra}")
+print(f"da: {da}")
+print(f"tax: {tax}")
+print(f"net salary: {net}")
+```
+
+After practising these programs, I am familiar with the input syntax of Python as well as Conditional Statements. For Tomorrow, I plan to practise some number manipulation exercises.
