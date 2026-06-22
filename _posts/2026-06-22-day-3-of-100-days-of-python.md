@@ -7,7 +7,7 @@ tags: Python
 ---
 Today is June 22nd, the third day of the 100 Days of Python Coding challenge. I am doing some Number Manipulation questions in Python that use a while loop and digit extraction.
 
-The first program is to check for an Armstrong Number. To solve it, I use a while loop and a counter variable to get the number of digits in the input number. Then, with another loop, I use the while loop again, but this time extract a digit, raise it to the power of its number of digits and then add their sum in a separate variable 's'.
+The first program checks for an Armstrong Number. To solve it, I use a while loop and a counter variable to get the number of digits in the input number. Then, with another loop, I use the while loop again, but this time extract a digit, raise it to the power of its number of digits and then add their sum in a separate variable 's'.
 
 ![image.png](assets/img/image-7.png)
 
@@ -40,4 +40,21 @@ else:
 I learned that in Python, instead of Math.pow, we use double asterisk (**) to raise a number to a power. 
 
 I also discovered another method for calculating the number of digits in an input number. It is that we can use this syntax, `len(str(num))` which converts the number into a string and calculates its length.
+
+![image.png](assets/img/image-8.png)
+
+The second program is to check whether a number is Prime number or not. Like all the other previous programs, this one was also very easy. Interestingly, while solving this program, I got to know a little trick.
+
+If I use break in for loop after a if statement  and just after that if I put an else, then if the loop runs completely,  meaning if the break statement does not get the control out of the loop block, then the statement under else will be executed, as showin in the console output.
+
+```python
+n = int(input("Enter a number to check for prime number "))
+
+for i in range(2, n):
+    if n%i==0:
+        print(f"{n} is divisible by {i}")
+        break
+else:
+    print(f"{n} is prime number")
+```
 
