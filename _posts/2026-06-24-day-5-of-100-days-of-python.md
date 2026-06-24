@@ -33,3 +33,24 @@ if cw != "":
 print(f"Total word count: {wcount}")
 ```
 
+![image.png](assets/img/image-12.png)
+
+This is the second program I made. It is to check whether an input text is a palindrome or not.
+
+```python
+# Take an entire sentence as input. Verify if it reads the same forward and backward while ignoring all spaces and matching cases. (e.g., "nurses run" should clean up to "nursesrun" and confirm it is a palindrome)
+
+a = input("Enter to check for Palindrome ")
+s =""
+for ch in a:
+    if ch!=" ":
+        s = s+ch.lower()
+rev=""
+for ch1 in s:
+    rev = ch1+rev
+if s==rev:
+    print(f"{a} is palindrome with its reverse being {rev}")
+else:
+    print("it is not")
+```
+
