@@ -30,3 +30,27 @@ print("List sorted in ascending order:")
 print(a)
 ```
 
+The second program I made was Binary Search.
+
+![image.png](assets/img/image-17.png)
+
+```python
+# Binary Search
+a = [11, 22, 25, 34, 64, 90]
+ns = int(input("Enter the number to be searched"))
+found = False
+l = 0
+h = len(a) - 1
+while l<=h and found == False:
+    mid = (l+h)//2
+    if a[mid] == ns:
+        found = True
+        print(f"Found at index {mid}")
+    elif ns>a[mid]:
+        l = mid +1
+    elif ns<a[mid]:
+        h = mid -1
+if not found:
+    print("not found")
+```
+
