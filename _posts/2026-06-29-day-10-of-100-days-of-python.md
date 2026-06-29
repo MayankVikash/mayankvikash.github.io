@@ -1,7 +1,7 @@
 ---
 title: Day 10 of 100 Days of Python
 date: 2026-06-29 20:21:00 +00:00
-description: Practising Functions
+description: Practising Functions and Matrix
 categories: Coding
 tags: Python
 ---
@@ -39,6 +39,39 @@ swap(a,l)
 print(f"Swapped List: \n{a}")
 ```
 
+The second program today was to calculate the sum of the diagonals of a matrix.
 
+```python
+# A 3x3 Grid (Matrix)
+# matrix = [
+#     [1, 2, 3],  # Row 0
+#     [4, 5, 6],  # Row 1
+#     [7, 8, 9]   # Row 2
+# ]
 
-&nbsp;
+m = [
+    [1,2,4],
+    [6,2,7],
+    [5,3,9]
+]
+s=0
+for r in m:
+    print(r)
+for i in range(0,3):
+    s = s+m[i][i]
+    print(f"Diagonals: {m[i][i]}")
+print(f"Sum of diagonlas: {s}")
+```
+
+Output
+
+```
+[1, 2, 4]
+[6, 2, 7]
+[5, 3, 9]
+Diagonals: 1
+Diagonals: 2
+Diagonals: 9
+Sum of diagonlas: 12
+```
+
