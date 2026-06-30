@@ -56,3 +56,27 @@ Output:
 Frequency of each character: {'s': 3, 'u': 1, 'c': 2, 'e': 1}
 ```
 
+The third program is to find the first non-repeatable character in a string using Dictionary in Python.
+
+```python
+# Write a program that looks at a string and finds the very first character that does not repeat anywhere else in the string.
+txt = "racecar"
+f ={}
+for ch in txt:
+    if ch in f:
+        f[ch]+=1
+    else:
+        f[ch] = 1
+for ch in txt:
+    if f[ch] ==1:
+        print(f"First non-repeatable character: {ch}")
+        break
+
+```
+
+Output:
+
+```
+First non-repeatable character: e
+```
+
