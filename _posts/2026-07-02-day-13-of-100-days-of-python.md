@@ -63,3 +63,29 @@ Premium List:
 - Gaming PC (Price: 120000)
 ```
 
+The third program checks the items in the dictionary and applies a 10% discount.
+
+```python
+# Write a feature that applies a 10% off discount to every single product inside the store's inventory list, updating the records in place.
+store_items = [
+    {"name": "Keyboard", "price": 1500},
+    {"name": "Smartphone", "price": 45000},
+    {"name": "Headphones", "price": 8000},
+    {"name": "Gaming PC", "price": 120000},
+    {"name": "USB Cable", "price": 500}
+]
+for items in store_items:
+    items["price"] = int(items["price"] - (0.1 * items["price"]))
+    print(f"{items["name"]} (Price: {items["price"]})")
+```
+
+Output:
+
+```
+Keyboard (Price: 1350)
+Smartphone (Price: 40500)
+Headphones (Price: 7200)
+Gaming PC (Price: 108000)
+USB Cable (Price: 450)
+```
+
