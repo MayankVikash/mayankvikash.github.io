@@ -89,4 +89,35 @@ Gaming PC (Price: 108000)
 USB Cable (Price: 450)
 ```
 
-This is the question for the next problem: Write a program that looks at a company's expense records and calculates the total amount of money spent per department
+This is the question for the next problem: Write a program that looks at a company's expense records and calculates the total amount of money spent per department.
+
+```python
+# Write a program that looks at a company's expense records and calculates the total amount of money spent per department
+expenses = [
+    {"item": "Laptops", "amount": 150000, "dept": "IT"},
+    {"item": "Chairs", "amount": 25000, "dept": "HR"},
+    {"item": "Software Licenses", "amount": 45000, "dept": "IT"},
+    {"item": "Desk Plants", "amount": 5000, "dept": "HR"},
+    {"item": "Cloud Hosting", "amount": 80000, "dept": "IT"},
+    {"item": "Recruiting Ads", "amount": 35000, "dept": "HR"}
+]
+
+dept_total= {}
+
+
+for items in expenses:
+    if items["dept"] in dept_total:
+        dept_total[items["dept"]] = dept_total[items["dept"]] + items["amount"]
+    else:
+        dept_total[items["dept"]] = items["amount"]
+
+print(dept_total)
+
+```
+
+Output:
+
+```
+{'IT': 275000, 'HR': 65000}
+```
+
