@@ -33,7 +33,7 @@ Total stock: 242000
 
 Here is the second Program. It uses if statements along with lists and dictionaries.
 
-![](assets/img/image-21.png)
+![Screenshot](assets/img/image-21.png)
 
 ```python
 # Write a system feature that filters out and displays only the "Premium" products from an expanded inventory list—meaning any item that costs more than 10,000.
