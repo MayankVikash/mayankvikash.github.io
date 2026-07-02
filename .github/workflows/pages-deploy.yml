@@ -47,10 +47,8 @@ jobs:
         env:
           JEKYLL_ENV: "production"
 
-      # FIXED: Removed the buggy htmlproofer link tester that was causing the 10-minute freeze.
-
       - name: Upload site artifact
-        uses: actions/upload-pages-artifact@v3.0.1  # FIXED: Updated to clear Node warnings
+        uses: actions/upload-pages-artifact@v5
 
   deploy:
     environment:
@@ -61,4 +59,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
