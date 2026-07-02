@@ -31,3 +31,35 @@ For Monitor, the price is 15000 and quantity is 2. Total Item value: 30000
 Total stock: 242000
 ```
 
+Here is the second Program. It uses if statements along with lists and dictionaries.
+
+![image.png](blob:https:/app.pagescms.org/84a2f1c3-8369-402e-ab8a-4fdf78336602)
+
+```python
+# Write a system feature that filters out and displays only the "Premium" products from an expanded inventory list—meaning any item that costs more than 10,000.
+store_items = [
+    {"name": "Keyboard", "price": 1500},
+    {"name": "Smartphone", "price": 45000},
+    {"name": "Headphones", "price": 8000},
+    {"name": "Gaming PC", "price": 120000},
+    {"name": "USB Cable", "price": 500}
+]
+premium_items = []
+for items in store_items:
+    if items["price"]>10000:
+        premium_items.append(items)
+print(premium_items)
+print("Premium List:")
+for pitems in premium_items:
+    print(f"- {pitems["name"]} (Price: {pitems["price"]})")
+```
+
+Output:
+
+```
+[{'name': 'Smartphone', 'price': 45000}, {'name': 'Gaming PC', 'price': 120000}]
+Premium List:
+- Smartphone (Price: 45000)
+- Gaming PC (Price: 120000)
+```
+
