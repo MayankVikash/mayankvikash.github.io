@@ -89,3 +89,4 @@ Gaming PC (Price: 108000)
 USB Cable (Price: 450)
 ```
 
+This is the question for the next problem: Write a program that looks at a company's expense records and calculates the total amount of money spent per department
