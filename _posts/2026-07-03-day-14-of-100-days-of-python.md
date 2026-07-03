@@ -61,3 +61,22 @@ Output of program 2:
 Highes: 99, lowest: 64, avg: 84
 ```
 
+For the third program of the day, I used the items() method of Python Dictionaries.
+
+```python
+# Write a function called invert_dictionary that takes a dictionary and returns a new dictionary where all the keys and values are swapped (the original keys become the values, and the original values become the keys).
+def inverted_dict(original_dict):
+    inverted ={}
+    for key, value in original_dict.items():
+        inverted[value] = key
+    return inverted
+user_roles = {"Alex": "Admin", "Alice": "User", "Bob": "Moderator"}
+print(inverted_dict(user_roles))
+```
+
+Output of program 3:
+
+```
+{'Admin': 'Alex', 'User': 'Alice', 'Moderator': 'Bob'}
+```
+
