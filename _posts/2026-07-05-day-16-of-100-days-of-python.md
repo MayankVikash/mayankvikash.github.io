@@ -63,3 +63,39 @@ New stock: 5 (for amt = -45)
 Insufficient stock (for amt = -145)
 ```
 
+Program 4: Create a class that models a system tracking a sequence of measurements, allowing updates to the data and reporting calculations based on its internal state.
+
+```python
+class DataTracker:
+    def __init__(self):
+        self.records = []
+    def add_record(self, value):
+        self.records.append(value)
+    def get_variance(self):
+        l = len(self.records)
+        if len(self.records) < 2:
+            return 0.0
+        else:
+            variance = 0.0
+            s=0
+
+            for num in self.records:
+                s = s + num
+            mean = s//l
+            for i in (0,len(self.records)):
+                variance = (variance + (i-mean)**2)/l
+            return variance
+tracker = DataTracker()
+tracker.add_record(10)
+tracker.add_record(20)
+tracker.add_record(30)
+x = tracker.get_variance()
+print(x)
+```
+
+Output:
+
+```
+140.7777777777778
+```
+
