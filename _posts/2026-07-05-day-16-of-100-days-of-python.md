@@ -19,6 +19,47 @@ player1 = Character("Alex", 50, "Telekinesis")
 player1.profile()
 ```
 
+I solved a few other programs also to get familiar with the syntax of constructors.
 
+```python
+class EmployeeProfile:
+    def __init__(self,emp_id,name,depart):
+        self.emp_id = emp_id
+        self.name= name
+        self.depart = depart
 
-&nbsp;
+    def fetch_details(self):
+        return f"EmpID: {self.emp_id} | Name: {self.name} | Dept: {self.depart}"
+emp1 = EmployeeProfile("E1154", "Alex", "IT")
+x = emp1.fetch_details()
+print(x)
+
+```
+
+Program 3:
+
+```python
+class InventoryItem:
+    def __init__(self, it_id, it_name, sc):
+        self.it_id = it_id
+        self.it_name = it_name
+        self.sc = sc
+    def up_st(self, amt):
+        if amt<0:
+            if -1*amt > self.sc:
+                return "Insufficient stock"
+        self.sc += amt
+        return f"New stock: {self.sc}"
+item = InventoryItem("SK81333", "Lights" , 50)
+x = item.up_st(-145)
+print(x)
+```
+
+Output for program 3:
+
+```
+New stock: 35 (for amt = 15)
+New stock: 5 (for amt = -45)
+Insufficient stock (for amt = -145)
+```
+
