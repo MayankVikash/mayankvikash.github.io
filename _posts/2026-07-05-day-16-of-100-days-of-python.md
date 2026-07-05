@@ -73,18 +73,21 @@ class DataTracker:
         self.records.append(value)
     def get_variance(self):
         l = len(self.records)
-        if len(self.records) < 2:
+        if l < 2:
             return 0.0
         else:
             variance = 0.0
+            sum_sqaured_diff =0.0
             s=0
 
             for num in self.records:
                 s = s + num
-            mean = s//l
-            for i in (0,len(self.records)):
-                variance = (variance + (i-mean)**2)/l
-            return variance
+            mean = s/l
+            for num in self.records:
+                sum_sqaured_diff +=  (num-mean)**2
+            variance = sum_sqaured_diff/l
+            return float(variance)
+
 tracker = DataTracker()
 tracker.add_record(10)
 tracker.add_record(20)
@@ -96,6 +99,6 @@ print(x)
 Output:
 
 ```
-140.7777777777778
+66.66666666666667
 ```
 
