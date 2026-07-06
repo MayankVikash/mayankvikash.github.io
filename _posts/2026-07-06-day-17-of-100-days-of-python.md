@@ -50,3 +50,41 @@ Output for Program 1:
 ['Node-A', 'Node-C']
 ```
 
+The second program I made is:
+
+```python
+# Create a parent class that handles core transaction attributes and a child class that inherits those attributes while adding conditional validation logic specific to specialized accounts.
+
+class BaseTransaction:
+    def __init__(self, transaction_id, amount):
+        self.transaction_id=transaction_id
+        self.amount=amount
+class AuthorizedTransaction(BaseTransaction):
+
+    def __init__(self,transaction_id,amount, security_token):
+        super().__init__(transaction_id,amount)
+        self.security_token = str(security_token)
+    def process_transaction(self):
+        if self.security_token == "AUTH_VALID":
+            return f"Transaction {self.transaction_id} processed for {self.amount}"
+        else:
+            return "Transaction Denied: Invalid Toekn"
+t1 = AuthorizedTransaction("TXN-101", 5000, "AUTH_VALID")
+t2 = AuthorizedTransaction("TXN-102", 750, "AUTH_FAILED")
+
+print(t1.process_transaction())
+# Expected Output: Transaction TXN-101 processed for 5000
+
+print(t2.process_transaction())
+# Expected Output: Transaction denied: Invalid token
+
+
+```
+
+Output:
+
+```
+Transaction TXN-101 processed for 5000
+Transaction Denied: Invalid Toekn
+```
+
