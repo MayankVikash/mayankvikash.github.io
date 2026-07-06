@@ -5,7 +5,7 @@ description: Learning Object Oriented Programming
 categories: Coding
 tags: Python
 ---
-I had been trying to solve this question since last night. Today, I was able to solve it, after I removed a list intialization from the function code block to __init__ function.
+I had been trying to solve this question since last night. Today, I was able to solve it, after I removed a list intialization from the function code block to **init** function.
 
 ```python
 # Create two classes where one class instantiates single objects, and the second class acts as a central repository that filters those objects based on a specific property threshold.
@@ -42,5 +42,11 @@ manager.register_node(ServerNode("Node-B", 45))
 manager.register_node(ServerNode("Node-C", 200))
 
 print(manager.get_overloaded_nodes(100))
+```
+
+Output for Program 1:
+
+```
+['Node-A', 'Node-C']
 ```
 
