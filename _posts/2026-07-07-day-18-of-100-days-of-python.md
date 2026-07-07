@@ -51,7 +51,7 @@ The second program I did today was try-except.
 
 def normalize_reading(data_input):
     try:
-        result = float(data_input)
+        return float(data_input)
     except ValueError:
         result = 0.0
         return(result)
@@ -64,7 +64,7 @@ print(normalize_reading("N/A"))
 Output:
 
 ```
-None
+14.5
 0.0
 ```
 
