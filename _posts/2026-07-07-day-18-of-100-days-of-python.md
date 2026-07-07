@@ -36,3 +36,35 @@ Output for Program 1:
 59000.0
 ```
 
+The second program I did today was try-except.
+
+```python
+# try:
+#     result = 10/0
+# except ZeroDivisionError:
+#     print("Cannot divide by 0")
+#     result =0
+# print(result)
+
+# Create a data cleaning utility function that attempts to normalize input values into a uniform numerical format while defending against malformed data types.
+
+
+def normalize_reading(data_input):
+    try:
+        result = float(data_input)
+    except ValueError:
+        result = 0.0
+        return(result)
+print(normalize_reading("14.5"))
+print(normalize_reading("N/A"))
+
+
+```
+
+Output:
+
+```
+None
+0.0
+```
+
