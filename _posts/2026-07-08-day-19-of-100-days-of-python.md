@@ -72,3 +72,26 @@ Sorting is asccending order using Bubble Sort
 [2, 12, 45, 98, 178]
 ```
 
+The next program was Selection Sort.
+
+```python
+#election sort
+def selection_sort(arr):
+    n = len(arr)
+    for i in range(0,n):
+        min_idx = i
+        for j in range(i+1,n):
+            if arr[j]<arr[min_idx]:
+                arr[j], arr[min_idx] = arr[min_idx], arr[j]
+    return arr
+
+numbers = [29, 10, 14, 37, 13]
+print(selection_sort(numbers))
+```
+
+Output:
+
+```
+[10, 13, 14, 29, 37]
+```
+
