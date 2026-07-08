@@ -10,8 +10,9 @@ First Program:
 ```python
 underlying_array_size = 10;
 user_keys = ["alpha", "beta", "gamma", "delta"];
-s=0;
+
 for key in user_keys:
+    s=0
     for i in key:
         s = s+ ord(i)
     ti = s%underlying_array_size
