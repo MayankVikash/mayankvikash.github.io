@@ -23,8 +23,8 @@ Output:
 
 ```
 Key 'alpha' maps to array index: 8
-Key 'beta' maps to array index: 0
+Key 'beta' maps to array index: 2
 Key 'gamma' maps to array index: 5
-Key 'delta' maps to array index: 7
+Key 'delta' maps to array index: 2
 ```
 
