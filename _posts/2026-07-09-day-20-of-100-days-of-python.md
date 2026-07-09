@@ -58,3 +58,29 @@ Output:
 -1
 ```
 
+The third program was a simple square matrix diagonal summation.
+
+```python
+# Sum of Diagonal of square matrix
+
+def diagonal_sum(matrix):
+    n = len(matrix)
+    total = 0
+    for i in range(n):
+        total = total + matrix[i][i]
+    return total
+m =[
+    [5,2,9],
+    [1,6,3],
+    [4,7,8]
+]
+print(diagonal_sum(m))
+
+```
+
+Output
+
+```
+19
+```
+
