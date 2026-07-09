@@ -28,3 +28,33 @@ Output for Program 1:
 [5, 6, 11, 12, 13]
 ```
 
+The second question today was to practise Binary Search again.
+
+```python
+# Binary Search
+
+def binary_search(arr, target):
+    low = 0
+    high = len(arr) -1
+    while low<=high:
+        mid = (low + high)//2
+        if arr[mid]==target:
+            return mid
+        if arr[mid]>target:
+            high = mid-1
+        if arr[mid]<target:
+            low = mid+1
+    return -1
+
+sorted_numbers = [3, 9, 11, 23, 45, 56, 78, 89]
+print(binary_search(sorted_numbers, 23))
+print(binary_search(sorted_numbers, 100)) # -1 not found
+```
+
+Output:
+
+```
+3
+-1
+```
+
