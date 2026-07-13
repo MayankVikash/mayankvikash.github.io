@@ -28,3 +28,26 @@ Clicked back. Leaving github.com
 ['google.com', 'wikipedia.org']
 ```
 
+The second program I did today is the opposite of Stack Data Structure, Queue. It follows First in First out (FIFO) principle. I tried to replicate a very basic ticketing queue in Python.
+
+```python
+# Queue
+
+support_queue =[]
+support_queue.append("Customer A")
+support_queue.append("Customer B")
+support_queue.append("Customer C")
+print(support_queue)
+served_customer = support_queue.pop(0)
+print(f"Serving: {served_customer}")
+print(support_queue)
+```
+
+Output for Program 2:
+
+```
+['Customer A', 'Customer B', 'Customer C']
+Serving: Customer A
+['Customer B', 'Customer C']
+```
+
