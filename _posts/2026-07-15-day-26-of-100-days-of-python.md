@@ -15,3 +15,10 @@ print(unique_attendance)
 
 ```
 
+Output:
+
+```
+False
+{'David', 'Bob', 'Charlie', 'Alice'}
+```
+
