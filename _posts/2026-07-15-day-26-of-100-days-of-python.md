@@ -22,3 +22,18 @@ False
 {'David', 'Bob', 'Charlie', 'Alice'}
 ```
 
+The second program I did was Linear Search.
+
+```python
+inventory = [104, 201, 355, 402, 589, 612]
+
+def linear_search(arr, target):
+    for i in range(0,len(arr)):
+        if arr[i] == target:
+            return i
+    return -1
+
+r = linear_search(inventory, 402)
+print(r)
+```
+
